@@ -83,7 +83,7 @@ Total Articles: **~45,000**
 Clone the repository
 
 ```bash
-git clone https://github.com/milanaht05/Fake-News-Detection.git
+git clone https://github.com/ANUMANDLA-GANESH/Fake-News-Detection.git
 ```
 
 Move into the project
