@@ -1,0 +1,108 @@
+{
+  "best_model_name": "Linear SVM",
+  "baseline_comparison": {
+    "Logistic Regression": {
+      "accuracy": 0.9875,
+      "precision": 0.9819,
+      "recall": 0.9955,
+      "f1_score": 0.9886,
+      "roc_auc": 0.9984,
+      "confusion_matrix": [
+        [
+          3414,
+          78
+        ],
+        [
+          19,
+          4220
+        ]
+      ],
+      "train_time_seconds": 0.25
+    },
+    "Multinomial Naive Bayes": {
+      "accuracy": 0.9486,
+      "precision": 0.9569,
+      "recall": 0.949,
+      "f1_score": 0.953,
+      "roc_auc": 0.9873,
+      "confusion_matrix": [
+        [
+          3311,
+          181
+        ],
+        [
+          216,
+          4023
+        ]
+      ],
+      "train_time_seconds": 0.02
+    },
+    "Linear SVM": {
+      "accuracy": 0.9929,
+      "precision": 0.9904,
+      "recall": 0.9967,
+      "f1_score": 0.9935,
+      "roc_auc": 0.9993,
+      "confusion_matrix": [
+        [
+          3451,
+          41
+        ],
+        [
+          14,
+          4225
+        ]
+      ],
+      "train_time_seconds": 0.61
+    },
+    "Random Forest": {
+      "accuracy": 0.9825,
+      "precision": 0.9772,
+      "recall": 0.9913,
+      "f1_score": 0.9842,
+      "roc_auc": 0.9984,
+      "confusion_matrix": [
+        [
+          3394,
+          98
+        ],
+        [
+          37,
+          4202
+        ]
+      ],
+      "train_time_seconds": 104.44
+    }
+  },
+  "tuned_model_metrics": {
+    "accuracy": 0.9926,
+    "precision": 0.9906,
+    "recall": 0.996,
+    "f1_score": 0.9933,
+    "roc_auc": 0.9992,
+    "confusion_matrix": [
+      [
+        3452,
+        40
+      ],
+      [
+        17,
+        4222
+      ]
+    ],
+    "best_params": {
+      "C": 1
+    },
+    "cv_f1_score": 0.9917
+  },
+  "tfidf_config": {
+    "max_features": 10000,
+    "ngram_range": [
+      1,
+      2
+    ]
+  },
+  "train_size": 30922,
+  "test_size": 7731,
+  "total_training_time_seconds": 149.62
+}
